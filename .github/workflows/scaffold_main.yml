@@ -14,6 +14,9 @@ jobs:
           activate-environment: test
           python-version: 3.8
           auto-activate-base: false
+      - name: change directory
+        run: |
+          cd scaffold
       - name: Install dependencies
         run: |
           make install
