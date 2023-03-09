@@ -1,0 +1,4 @@
+1. create virtual environment
+conda create -n myenv
+2. activate environment
+conda activate myenv
