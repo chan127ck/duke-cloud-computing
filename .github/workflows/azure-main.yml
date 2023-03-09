@@ -11,10 +11,10 @@ jobs:
         python-version: 3.7.15
     - name: Install dependencies
       run: |
-        make install-azure
+        make -C scaffold install-azure
     - name: Lint
       run: |
-        make lint
+        make -C scaffold lint
     - name: Test
       run: |
-        make test
+        make -C scaffold test
