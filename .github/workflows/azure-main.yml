@@ -9,12 +9,6 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.7.15
-    - name: Install dependencies
+    - name: run scaffold script
       run: |
-        cd scaffold && make install-azure
-    - name: Lint
-      run: |
-        make lint
-    - name: Test
-      run: |
-        make test
+        make scaffold
