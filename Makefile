@@ -2,4 +2,4 @@
 SHELL=/bin/zsh
 
 scaffold:
-    +$(MAKE) -C scaffold all
+	+$(MAKE) -C scaffold all
