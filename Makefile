@@ -1,5 +1,5 @@
 # Need to specify bash in order for conda activate to work.
 SHELL=/bin/zsh
 
-scaffold:
+scaffold_run:
 	+$(MAKE) -C scaffold all
